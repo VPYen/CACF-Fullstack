@@ -1,0 +1,337 @@
+/* * {
+    border: 1px solid black;
+} */
+
+li{
+    list-style-type: none;
+}
+
+.navbar li{
+    margin: 1.5%;
+    margin-bottom: .2%;
+    display: inline-flex;
+}
+
+.navbar .link{
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+.navbar .link:hover{
+    color: red;
+    cursor: pointer;
+    text-shadow: 2px 2px 4px black;
+}
+
+.navbar .link:active{
+    text-shadow: 0px 0px 0px black;
+}
+
+.header{
+    display:flex;
+    color: white;
+    cursor: default;
+    flex-direction: row;
+    text-shadow: 2px 2px 4px black;
+}
+
+#login #register{
+    cursor: default;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.loginForm{
+    width: 12%;
+    margin: 2%;
+    align-self: center;
+}
+
+.submitButton{
+    float: right;
+    margin-top: 3%;
+    margin-right: 20%;
+    border: 2px solid black;
+    border-radius: 3px;
+    box-shadow: 5px 5px black;
+}
+
+.submitButton:hover{
+    cursor: pointer;
+}
+
+.submitButton:active{
+    box-shadow: inset 4px 5px 5px 1px black;
+}
+
+.loginForm input{
+    height: 20px;
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 10%;
+    border-radius: 4px;
+}
+
+.loginForm input:focus{
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+.loginError{
+    color: red;
+    margin: 0 auto;
+}
+
+#register{
+    width: 100%;
+    font-size: small;
+    display: inline-flex;
+}
+
+#register p{
+    font-weight: 600;
+}
+
+#register a{
+    color: blue;
+    margin-left: 1%;
+    text-shadow: 2px 2px 4px black;
+}
+
+#register a:hover{
+    cursor:pointer;
+}
+
+#register a:active{
+    color: red;
+    text-shadow: 0px 0px 0px black;
+}
+
+.actions li{
+    margin: 12%;
+    padding-right: 20px;
+    text-shadow: 2px 2px 3px gray;
+}
+
+.actions li:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.actions li:active{
+    text-shadow: 0px 0px 0px black;
+}
+
+.outerForm{
+    width: 75%;
+    margin-left: 10%;
+}
+
+.editForm{
+    width: 50%;
+    margin-left: 20%;
+    margin-bottom: 12%;
+    flex-direction: column;
+}
+
+.editForm .formInput {
+    margin-bottom: 5%;
+}
+
+.closeWindow{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.closeWindow:hover{
+    cursor: pointer;
+}
+
+#addButton{
+    width: 4%;
+    height: 4%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 25%;
+    align-self: flex-end;
+    box-shadow: 0px 0px 8px 0px;
+}
+
+#addButton:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 12px 0px;
+}
+
+#addButton:active {
+    box-shadow: 0px 0px 2px 0px;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.navContainer{
+    border: 1px solid black;
+    background-color: rgb(72,72,72);
+}
+
+.logo{
+    width: 5%;
+    height: 5%;
+    margin-right: 2%;
+    border-radius: 50%;
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+}
+
+table{
+    width: 100%;
+}
+
+.tdTitle, .tdDesc, .tdDate, .tdQuest{
+    width: 15%;
+    text-align: center;
+}
+
+.tdDel{
+    width: 5%;
+    font-weight: 500;
+    text-align: center;
+    text-shadow: 2px 2px 2px gray;
+}
+
+.tdDel:hover{
+    cursor: pointer;
+}
+
+.tdDel a:active{
+    color: red;
+    text-shadow: 1px 1px 1px black;
+}
+
+.tdQuests{
+    width: 20%;
+    text-align: center;
+}
+
+.tdQElement{
+    display: flex;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    flex-direction: column;
+}
+
+#addNewQ {
+    width: 40%;
+    background-color: lightgray;
+    border-radius: 5px;
+    box-shadow: 2px 2px black;
+    align-self: center;
+}
+
+#addNewQ:hover{
+    cursor: pointer;
+}
+
+#addNewQ:active{
+    box-shadow: 0px 0px black;
+}
+
+.noRespMsg{
+    margin-left: 10%;
+}
+
+.tdTitle a, .tdQuest a, .tdQuests a{
+    color: blue;
+    text-shadow: 1px 1px 4px white;
+    font-weight: 500;
+}
+
+.tdTitle a:hover, .tdQuest a:hover, .tdQuests a:hover{
+    cursor: pointer;
+}
+
+.tdTitle a:active, .tdQuest a:active, .tdQuests a:active{
+    color: red;
+}
+
+.listError{
+    color: red;
+    cursor: default;
+    font-size: large;
+    align-self: center;
+    text-shadow: 1px 1px 2px black; 
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title{
+    color: Black;
+    cursor: default;
+    text-align: center;
+    font-family: script, serif;
+}
+
+hr {
+    width: 55%;
+    border: 1px solid black;
+    box-shadow: 0px 0px 8px 0px;
+}
+
+.listTable, td, tr{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 1%;
+    border: 1px solid;
+}
+
+h1 {
+    text-shadow: 2px 2px 4px gray;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .6);
+}
+
+.modal-main {
+    position: fixed;
+    display: flex;
+    padding: .5%;
+    border: 4px solid white;
+    border-radius: 5px;
+    flex-direction: column;
+    color: white;
+    width: 30%;
+    height: 40%;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background: rgba(45, 45, 45, 1);
+    overflow-y: auto;
+}
+
+.col1Modal{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.col2Modal{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.display-none {
+    display: none;
+}
